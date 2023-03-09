@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import withBorder from '../hoc/withBorder'
 
-export default class Greetings extends Component {
+class Greetings extends Component {
   render() {
     return (
       <div>Hello friends!</div>
     )
   }
 }
+
+export default withBorder('success')(withBorder('success')(Greetings))

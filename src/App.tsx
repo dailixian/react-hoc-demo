@@ -1,11 +1,11 @@
-import Greetings from "./components/Greetings";
+import ProductList from "./components/ProductList";
 
 function App() {
   return (
     <>
       <div className="container">
         <h1>Higher Order Component</h1>
-        <Greetings></Greetings>
+        <ProductList></ProductList>
       </div>
     </>
   );
