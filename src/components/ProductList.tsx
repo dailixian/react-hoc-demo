@@ -1,4 +1,3 @@
-import React from "react";
 import withAuth from "../hoc/withAuth";
 import withLoading from "../hoc/withLoading";
 import withUrl from "../hoc/withUrl";

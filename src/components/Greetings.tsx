@@ -1,12 +1,10 @@
-import React, { Component } from 'react'
-import withBorder from '../hoc/withBorder'
+import { Component } from "react";
+import withBorder from "../hoc/withBorder";
 
 class Greetings extends Component {
   render() {
-    return (
-      <div>Hello friends!</div>
-    )
+    return <h1>Hello Friends!</h1>;
   }
 }
 
-export default withBorder('success')(withBorder('success')(Greetings))
+export default withBorder("")(Greetings);

@@ -1,14 +1,14 @@
+import Authenticate from "./components/Authenticate";
+import Greetings from "./components/Greetings";
 import ProductList from "./components/ProductList";
-// import TodoList from "./components/TodoList";
 
 function App() {
   return (
     <>
-      <div className="container">
-        <h1>Higher Order Component</h1>
-        {/* <TodoList></TodoList> */}
+      <Greetings></Greetings>
+      <Authenticate>
         <ProductList></ProductList>
-      </div>
+      </Authenticate>
     </>
   );
 }
