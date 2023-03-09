@@ -7,7 +7,7 @@ function App() {
     <>
       <Greetings></Greetings>
       <Authenticate>
-        <ProductList></ProductList>
+        <ProductList />
       </Authenticate>
     </>
   );

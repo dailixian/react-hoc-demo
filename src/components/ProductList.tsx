@@ -48,4 +48,4 @@ const ProductList = ({ products }: ProductListProps) => {
 export default withUrl({
   url: "http://localhost:8801/products",
   prop: "products",
-})(withLoading("products")(withAuth(ProductList)));
+})(withLoading("products")(ProductList));
