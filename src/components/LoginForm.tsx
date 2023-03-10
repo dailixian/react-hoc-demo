@@ -35,6 +35,7 @@ export class LoginForm extends Component<LoginFormProps, LoginFormState> {
                 </label>
                 <input
                   type="email"
+                  name="email"
                   value={this.state.email}
                   onChange={this.changeHandler}
                   className="form-control"
@@ -51,6 +52,7 @@ export class LoginForm extends Component<LoginFormProps, LoginFormState> {
                 </label>
                 <input
                   type="password"
+                  name="password"
                   value={this.state.password}
                   onChange={this.changeHandler}
                   className="form-control"
